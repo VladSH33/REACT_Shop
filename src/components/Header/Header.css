@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5a07ff7a;
+    height: 4rem;
+    padding: 1rem 3rem;
+    align-items: center;
+    border-bottom: 0.1rem solid #804beb7a;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.repo {
+    font-size: 1.5rem;
+    font-weight: 400;
+}

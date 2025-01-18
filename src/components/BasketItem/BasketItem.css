@@ -1,0 +1,35 @@
+.basket-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-item {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 3px;
+    cursor:pointer;
+}
+
+.delete-item:hover {
+    color: red;
+}
+
+.good-item {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    margin: 0 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.incQuantity:hover {
+    color: red;
+}
+
+.decQuantity:hover {
+    color: green;
+}
